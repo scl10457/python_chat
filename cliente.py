@@ -1,3 +1,4 @@
+# Importação de algumas bibliotecas
 import socket
 import threading
 import time
