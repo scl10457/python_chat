@@ -4,6 +4,7 @@ import threading
 import time
 import sys
 
+# Definição das variáveis
 host = "10.3.14.35"
 port = 7777
 buffer_size = 2048
