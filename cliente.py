@@ -9,8 +9,8 @@ host = "10.3.14.35"
 port = 7777
 buffer_size = 2048
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect((host, port))
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)   # Criação de um objeto socket
+s.connect((host, port))                                 # Uso do connect para fazer a conexão com host e porta
 
 nickname = input("Nickname: ")
 
